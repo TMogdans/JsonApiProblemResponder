@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace TMogdans\JsonApiProblemResponder\Exceptions;
 
-class MethodNotAllowed extends BaseException
+class MethodNotAllowedException extends BaseException
 {
     protected int $status = 405;
 
