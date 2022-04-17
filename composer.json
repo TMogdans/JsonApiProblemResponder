@@ -1,0 +1,19 @@
+{
+    "name": "tmogdans/json-api-problem-responder",
+    "description": "A package to return RESTful exceptions in a Laravel API.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tmogdans\\JsonApiProblemResponder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tobias Mogdans",
+            "email": "tobias.mogdans@mayflower.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
