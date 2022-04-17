@@ -57,10 +57,6 @@ class Handler extends ExceptionHandler
             $data = $exception->toArray();
         }
 
-        if ($exception instanceof ValidationException) {
-            parent::render($request, $exception);
-        }
-
         return new JsonResponse($data, $data['status'], ['Content-Type' => 'application/problem+json']);
     }
 
